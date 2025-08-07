@@ -67,3 +67,32 @@ h1{
     flex-direction: column;
     gap: 10px;
 }
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 1300px;
+  background-color:#f8c8dc ;
+  display: flex;
+  justify-content: space-around;
+
+}
+img{
+    height: 40px;
+    width: 40px;
+}
+.recherche input{
+     width: 400px;     
+    padding: 5px;
+    margin: 5px;
+}
+.lien a {
+   color: #992ccb;
+   text-decoration: none;
+   margin-top: 10px;
+   display: inline-block;
+  
+}
+.lien{
+    display: flex;
+    gap: 10px;
+}
